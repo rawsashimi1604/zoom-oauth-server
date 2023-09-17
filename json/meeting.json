@@ -1,0 +1,75 @@
+{
+  "meeting": {
+    "uuid": "x+XVSS5+SOqRo8JagX2mMw==",
+    "id": 75390502183,
+    "host_id": "LgWDO43lQ5eMNsLdauXPDg",
+    "host_email": "looweiren@gmail.com",
+    "topic": "Zoom Meeting",
+    "type": 2,
+    "status": "waiting",
+    "start_time": "2023-09-17T21:00:00Z",
+    "duration": 60,
+    "timezone": "America/Los_Angeles",
+    "agenda": "Some random Agenda",
+    "created_at": "2023-09-17T13:57:14Z",
+    "start_url": "https://us04web.zoom.us/s/75390502183?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMSIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJhdWQiOiJjbGllbnRzbSIsInVpZCI6IkxnV0RPNDNsUTVlTU5zTGRhdVhQRGciLCJpc3MiOiJ3ZWIiLCJzayI6IjAiLCJzdHkiOjEsIndjZCI6InVzMDQiLCJjbHQiOjAsIm1udW0iOiI3NTM5MDUwMjE4MyIsImV4cCI6MTY5NDk2NjIzNCwiaWF0IjoxNjk0OTU5MDM0LCJhaWQiOiJ5SlV5U1UxcFE3LXBTODhNTVY2aW1BIiwiY2lkIjoiIn0.HPCNW0R0GlffSXCarEq-aPCaVQ9Fezm56R8qs94_qGQ",
+    "join_url": "https://us04web.zoom.us/j/75390502183?pwd=ykz5bTDJp9Mp9CETXad5WZCOUo8YSt.1",
+    "password": "1GnqqY",
+    "h323_password": "931297",
+    "pstn_password": "931297",
+    "encrypted_password": "ykz5bTDJp9Mp9CETXad5WZCOUo8YSt.1",
+    "settings": {
+      "host_video": false,
+      "participant_video": false,
+      "cn_meeting": false,
+      "in_meeting": false,
+      "join_before_host": false,
+      "jbh_time": 0,
+      "mute_upon_entry": false,
+      "watermark": false,
+      "use_pmi": false,
+      "approval_type": 2,
+      "audio": "voip",
+      "auto_recording": "none",
+      "enforce_login": false,
+      "enforce_login_domains": "",
+      "alternative_hosts": "",
+      "alternative_host_update_polls": false,
+      "close_registration": false,
+      "show_share_button": false,
+      "allow_multiple_devices": false,
+      "registrants_confirmation_email": true,
+      "waiting_room": true,
+      "request_permission_to_unmute_participants": false,
+      "registrants_email_notification": true,
+      "meeting_authentication": false,
+      "encryption_type": "enhanced_encryption",
+      "approved_or_denied_countries_or_regions": {
+        "enable": false
+      },
+      "breakout_room": {
+        "enable": false
+      },
+      "internal_meeting": false,
+      "continuous_meeting_chat": {
+        "enable": false,
+        "auto_add_invited_external_users": false
+      },
+      "participant_focused_meeting": false,
+      "push_change_to_calendar": false,
+      "alternative_hosts_email_notification": true,
+      "show_join_info": false,
+      "device_testing": false,
+      "focus_mode": false,
+      "enable_dedicated_group_chat": false,
+      "private_meeting": false,
+      "email_notification": true,
+      "host_save_video_order": false,
+      "sign_language_interpretation": {
+        "enable": false
+      },
+      "email_in_attendee_report": false
+    },
+    "pre_schedule": false
+  }
+}

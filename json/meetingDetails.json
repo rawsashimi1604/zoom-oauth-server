@@ -1,0 +1,18 @@
+{
+  "meetingDetails": {
+    "uuid": "x+XVSS5+SOqRo8JagX2mMw==",
+    "id": 75390502183,
+    "host_id": "LgWDO43lQ5eMNsLdauXPDg",
+    "type": 2,
+    "topic": "Zoom Meeting",
+    "user_name": "Gavin Loo",
+    "user_email": "looweiren@gmail.com",
+    "start_time": "2023-09-17T13:57:47Z",
+    "end_time": "2023-09-17T13:57:54Z",
+    "duration": 1,
+    "total_minutes": 1,
+    "participants_count": 1,
+    "dept": "",
+    "source": "Zoom"
+  }
+}

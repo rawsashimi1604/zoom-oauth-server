@@ -22,6 +22,16 @@ app.post("/zoom/meeting", async (req, res) => {
   res.json({ meeting });
 });
 
+app.get("/zoom/meeting/details", async (req, res) => {
+  const token = await ZoomService.getAccessToken();
+  const meetingId = "x+XVSS5+SOqRo8JagX2mMw==";
+  const meetingDetails = await ZoomService.getPastMeetingDetails(
+    meetingId,
+    token.access_token
+  );
+  res.json({ meetingDetails });
+});
+
 app.listen(port, () => {
   console.log("started listening on port " + port);
 });

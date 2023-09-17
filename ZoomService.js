@@ -46,7 +46,23 @@ async function createMeeting(userId, token) {
   return res.data;
 }
 
+async function getPastMeetingDetails(meetingId, token) {
+  const config = {
+    headers: {
+      Host: "zoom.us",
+      Authorization: "Bearer " + token,
+    },
+  };
+
+  const res = await axios.get(
+    `https://api.zoom.us/v2/past_meetings/${meetingId}`,
+    config
+  );
+  return res.data;
+}
+
 export default {
   getAccessToken,
   createMeeting,
+  getPastMeetingDetails,
 };
