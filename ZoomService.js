@@ -34,9 +34,16 @@ async function createMeeting(userId, token) {
 
   const body = {
     agenda: "Some random Agenda",
-    join_before_host: true,
     start_time: startTime.toISOString(),
+    settings: {
+      join_before_host: true,
+      host_video: false,
+      waiting_room: false
+    }
+    
   };
+
+  console.log({ body })
 
   const res = await axios.post(
     `https://api.zoom.us/v2/users/${userId}/meetings`,
